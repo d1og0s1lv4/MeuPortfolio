@@ -23,7 +23,7 @@ body {
     padding: 1.5rem;
     justify-content: center;
     align-items: center;
-    background-color: rgb(15, 23, 42, 0.8);
+    background-color: rgba(29, 33, 44, 0.8);
     gap: 3rem;
 }
 
@@ -59,7 +59,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 
@@ -82,6 +81,13 @@ body {
     font-size: 1.5rem;
 }
 
+#perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #sobre {
     display: flex;
     flex-direction: column;
@@ -97,4 +103,44 @@ body {
 .aboutme div p {
     text-align: center;
     font-size: 2.5rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.projects h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 45px;
+}
+
+
+.projects-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    border-radius: 16px;
+    border: 1px solid rgb(115, 116, 117, 0.2);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+}
+.projects-card img{
+    width: 290px;
+    height: 200px; 
 }
