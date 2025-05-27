@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="imagex.png" href="./assets/portfolio.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
     <title>Meu Portfólio | Diogo Silva</title>
   </head>
@@ -51,60 +52,84 @@
 
     <section class="projects" id="projetos">
       <h1>Meus Projetos</h1>
-      <div class="projects-container">
-        <div class="projects-card">
-          <img
-            onclick="window.open('https://github.com/d1og0s1lv4', '_blank')"
-            class="imagem-projeto"
-            src="./assets/conversor.png"
-            alt="Projeto-Conversor-de-Moedas"
-          />
-          <div class="projects-card-text">
-            <h3>Conversor de moedas</h3>
-            <p>
-              Site de cotação de câmbio moderno e responsivo. Feito com
-              Javascript
-            </p>
+      <div id="carouselExampleCaptions" class="carousel slide" style="height: 50vh; width: 50vw; margin: 0 auto;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" onclick="window.open('https://github.com/d1og0s1lv4', '_blank')">
+            <img src="./assets/conversor.png" class="d-block w-100" style="height: 50vh; width: 450px;;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conversor de Moedas</h5>
+              <p>Projeto cirado com HTML5, CSS e JS. Site responsivo e com design moderno.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/conversor.png" style="height: 50vh; width: 450px;;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/conversor.png" class="d-block w-100" style="height: 50vh; width: 450px;;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/conversor.png" class="d-block w-100" style="height: 50vh; width: 450px;;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/conversor.png" class="d-block w-100" style="height: 50vh; width: 450px;;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
           </div>
         </div>
-        <div class="projects-card">
-          <img src="./assets/conversor.png" alt="" />
-          <div class="projects-card-text">
-            <h3>Conversor de moedas</h3>
-            <p>
-              Site de cotação de câmbio moderno e responsivo. Feito com
-              Javascript
-            </p>
-          </div>
-        </div>
-        <div class="projects-card">
-          <img src="./assets/conversor.png" alt="" />
-          <div class="projects-card-text">
-            <h3>Conversor de moedas</h3>
-            <p>
-              Site de cotação de câmbio moderno e responsivo. Feito com
-              Javascript
-            </p>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
     <footer id="contato">
-        <img
-          onclick="window.open('https://wa.me/15988390981', '_blank')"
-          class="icon"
-          src="./assets/whatsapp.png"
-          alt="whatsapp-icon"
-        />
-        <img class="icon" src="./assets/github.png" alt="github-icon" />
-        <img
-          onclick="window.open('https://www.linkedin.com/in/diogo-gabriel-da-silva/', '_blank')"
-          class="icon"
-          src="./assets/linkedin.png"
-          alt="linkedin-icon"
-        />
-      <p>©Desenvolvido por Diogo Silva</p>
+      <img
+        onclick="window.open('https://wa.me/+5515988390981', '_blank')"
+        class="icon"
+        src="./assets/whatsapp.png"
+        alt="whatsapp-icon"
+      />
+      <img
+        onclick="window.open('https://github.com/d1og0s1lv4', '_blank')"
+        class="icon"
+        src="./assets/github.png"
+        alt="github-icon"
+      />
+      <img
+        onclick="window.open('https://www.linkedin.com/in/diogo-gabriel-da-silva/', '_blank')"
+        class="icon"
+        src="./assets/linkedin.png"
+        alt="linkedin-icon"
+      />
+      <p>©2025 | Diogo Silva</p>
     </footer>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </html>
