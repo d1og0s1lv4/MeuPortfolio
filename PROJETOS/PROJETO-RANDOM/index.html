@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-b r">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dhurjati&family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Number</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <img src="./assets/d20.jpg" class="d20" alt="Dice with 20 sides" />
+      <h1>Random Number</h1>
+      <h1 class="number">0</h1>
+      <p>Draw a number between:</p>
+      <input placeholder="0" class="input-min" type="number" />
+      <input placeholder="1" class="input-max" type="number" />
+      <br />
+      <button onclick="generateNumber()">Draw!</button>
+    </div>
+  </body>
+
+  <script src="./scripts.js"></script>
+</html>

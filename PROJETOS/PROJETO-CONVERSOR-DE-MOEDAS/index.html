@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Convert Money</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <img class="logo" src="./assets/logo.gif" alt="logo-convert-money" />
+
+      <section>
+        <div class="container-one">
+          <h4>Converter <span>de</span></h4>
+          <select class="put-info currency-selector" id="input-um">
+            <option value="BRL">🇧🇷 Real</option>
+            <option value="USD">🇺🇸 Dólar</option>
+            <option value="EUR">🇪🇺 Euro</option>
+            <option value="GBP">🇬🇧 Libra</option>
+            <option value="JPY">🇯🇵 Iene Japonês</option>
+            <option value="AUD">🇦🇺 Dólar Australiano</option>
+            <option value="CAD">🇨🇦 Dólar Canadense</option>
+            <option value="CHF">🇨🇭 Franco Suíço</option>
+            <option value="ARS">🇦🇷 Peso Argentino</option>
+          </select>
+
+          <h4>Converter <span>para</span></h4>
+          <select class="put-info currency-selector" id="input-dois">
+            <option value="USD">🇺🇸 Dólar</option>
+            <option value="EUR">🇪🇺 Euro</option>
+            <option value="GBP">🇬🇧 Libra</option>
+            <option value="JPY">🇯🇵 Iene Japonês</option>
+            <option value="AUD">🇦🇺 Dólar Australiano</option>
+            <option value="CAD">🇨🇦 Dólar Canadense</option>
+            <option value="CHF">🇨🇭 Franco Suíço</option>
+            <option value="ARS">🇦🇷 Peso Argentino</option>
+            <option value="BRL">🇧🇷 Real</option>
+          </select>
+
+          <h4><span>Valor</span></h4>
+          <input
+            type="number"
+            class="put-info"
+            id="input-value"
+            placeholder="R$ 1000,00"
+          />
+          <br /><br />
+          <button class="convert-button">Converter</button>
+        </div>
+
+        <div class="container-two">
+          <img
+            class="container-two-img origin-img"
+            src="./assets/real.png"
+            alt="moeda de origem"
+          />
+          <h5 class="origin-name">Real</h5>
+          <h3 class="real-value">R$10.000,00</h3>
+
+          <img
+            class="container-two-img arrow"
+            src="./assets/arrow.png"
+            alt="seta"
+          />
+
+          <img
+            class="container-two-img currency-img"
+            src="./assets/dolar.png"
+            alt="moeda convertida"
+          />
+          <h5 class="currency-name">Dólar</h5>
+          <h3 class="another-value">US$10,000.00</h3>
+        </div>
+      </section>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

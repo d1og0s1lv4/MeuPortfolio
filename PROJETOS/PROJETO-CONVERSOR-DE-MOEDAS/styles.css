@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #8a51fc;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+section {
+  width: 40dvw;
+  height: 40dvh;
+  display: flex;
+  gap: 50px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.container-one {
+  display: grid;
+  padding: 15px 0 0 50px;
+}
+
+h4 {
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.put-info {
+  width: 327px;
+  height: 28px;
+  border: #bbbbbb 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  appearance: none;
+}
+
+button {
+  width: 180px;
+  height: 38px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #772fd3;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+.container-two {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 40dvw;
+  padding: 15px 0;
+}
+
+.container-two h5 {
+  color: #772fd3;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.container-two-img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+
+  .logo {
+    width: 85px;
+    height: 85px;
+  }
+
+  section {
+    width: 90vw;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .container-one {
+    padding: 15px 0 0 0;
+  }
+
+  .put-info {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container-two {
+    width: 80%;
+    padding: 0;
+  }
+
+  .container-two img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container-two h5 {
+    font-size: 15px;
+  }
+
+  .container-two h3 {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .arrow {
+    display: none;
+  }
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #FAFAFA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 450px;
+}
+
+.images {
+    position: relative;
+}
+
+.img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    }
+
+.container-right {
+    border: solid 1px #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+}
+
+input {
+    height: 36px;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+button:active {
+    opacity: .5;
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.senha {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 12px;
+}

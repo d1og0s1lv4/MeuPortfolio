@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100dvh;
+}
+
+.header {
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #989D9C;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.opt:hover {
+    color: #665AE1;
+    transition: color 0.3s;
+}
+
+.login {
+    padding: 5px 15px;
+    background-color: #665AE1;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.login:hover {
+    background-color: #4b47c2;
+    transition: background-color 0.3s;
+}
+
+.secao {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    gap: 180px;
+}
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    color: #515151 ;
+}
+
+.titulo {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.subtitulo {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.paragrafo {
+    font-size: 20px;
+    line-height: 25px;
+    color:#848484;
+}
+
+.explore {
+    background: #ADFF00;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px #8b8888;
+}
+
+.explore:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s;
+}
+
+.footer {
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 0;
+    padding: 25px;
+    background-color: #665AE1;
+    
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.imagens img {
+    width: 65px;
+    height: 65px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.imagens .instagram {
+    width: 74px;
+    height: 74px;
+}
+
+.imagens img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.infos a {
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    transition: color 0.3s;
+    margin-bottom: 15px;
+}
+
+.infos a:hover {
+    color: #fff;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #fff;
+}

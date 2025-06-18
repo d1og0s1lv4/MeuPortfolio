@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+    width: 368px;
+    color: #5D5D7D;
+}
+
+p {
+ margin-bottom: 15px;
+ width: 540px;
+ color: rgba(93, 93, 125,0.650);
+ font-size: 28px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: rgba(148, 153, 234);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.container-right {
+    display: inline-block;
+    width: 40%;
+    background: rgba(93, 93, 125,0.16);
+    position: absolute;
+    height: 100vh;
+}
+
+.menu {
+    font-size: 28px;
+    line-height: 41px;
+    padding: 15px;
+    margin-left: 40px;
+}
+
+.link {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #5D5D7D;
+}
+
+.link:nth-child(2) {
+    opacity: .6;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+img {
+    height: 456px;
+    width: 561,95px;
+    position: relative;
+    top: 35px;
+    right: 110px;
+}
+
+/* Att Responsivo */
+@media screen and (max-width: 1080px){
+    .container-left {
+        display: block;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        position: static;
+    }
+
+    h1 {
+        width: 268px;
+        height: 104px;
+        font-size: 36px;
+        line-height: 52px;
+        margin: 58px 54px 0 54px;
+    }
+    
+    p {
+        width: 296px;
+        height: 96px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 40px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container-right {
+        display: block;
+        width: 100%;
+        height: 50%;
+        padding: 40px;
+    }
+
+    a {
+        display: none;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+        max-height: 322px;
+    }
+}

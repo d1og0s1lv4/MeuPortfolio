@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    height: 430px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+
+h1 {
+    font-family: 'press start 2P', sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.results {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.nina {
+    font-size: 50px;
+}
+
+.x {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    margin-right: 19px;
+    margin-bottom: 30px;
+    font-size: 35px; 
+    /*OS EMOJIS SÃO CARACTERES DENTRO DO BOTÃO, ENT O FONT-SIZE SERVE PARA AUMENTÁ-LOS TBM*/
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+#rock {
+    background-color: rgb(52, 145, 52);
+}
+
+#paper {
+    background-color: rgb(61, 108, 238);
+}
+
+#scissor {
+    background-color: rgb(243, 73, 73);
+}
+
+h3 {
+    font-family: 'pixelify sans', sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
